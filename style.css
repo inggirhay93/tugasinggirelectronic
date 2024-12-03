@@ -1,0 +1,109 @@
+h1 {
+    padding: 20px;
+}
+video {
+    margin: 20px;
+}
+.text p {
+    margin: 30px;
+}
+.card{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+span {
+    font-weight: bold;
+}
+#red {
+    color:brown;
+}
+form {
+    margin-right: 20px;
+}
+.bar{
+    background-color: brown;
+    color: white;
+}
+footer {
+    background-color: black;
+}
+.mail form {
+    padding-top: 30px;
+}
+.sosial{
+    margin: 20px;
+}
+.sosial button{
+    width: 30px;
+}
+.fot {
+    background-color: black;
+    color: white;
+}
+.copy {
+    color: white;
+    margin: 10px;
+    padding:10px;
+    float: right;
+}
+.con {
+    margin: 20px;
+}
+.au {
+    padding-top: 20px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.search {
+    margin-left: auto;
+}
+
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .search{
+        display: none;
+    }
+
+    .row .video, .row .text .row .card {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    .card {
+		width: 90%;
+	}
+    .card img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1, h3 {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        font-size: 0.9rem;
+    }
+
+    .search input {
+        width: 80%;
+    }
+    .card {
+		width: 100%;
+	}
+    .card img{
+        width: 100%;
+        height: auto;
+    }
+}

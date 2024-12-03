@@ -1,0 +1,94 @@
+h1 {
+    padding: 20px;
+}
+
+.card {
+    margin: 50px;
+    width: 15%
+}
+
+.card:hover {
+	transform: translateY(-10px); /* Mengangkat card sedikit ke atas */
+	box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2); /* Bayangan lebih besar */
+	transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-deck {
+    padding-bottom:20px;
+}
+span {
+    font-weight: bold;
+}
+#red {
+    color:brown;
+}
+form {
+    margin-right: 20px;
+}
+.bar{
+    background-color: brown;
+    color: white;
+}
+footer {
+    background-color: black;
+}
+.mail form {
+    padding-top: 30px;
+}
+.sosial{
+    margin: 10px;
+}
+.fot {
+    background-color: black;
+    color: white;
+}
+.copy {
+    color: white;
+    margin: 10px;
+    padding:0px;
+}
+.con {
+    margin: 20px;
+}
+.au {
+    padding-top: 20px;
+}
+.conten #text1 {
+    margin: 20px;
+}
+.card-title {
+    color:brown;
+}
+@media screen and (max-width: 768px) {
+    
+    .search{
+        display: none;
+    }
+    .card {
+        width: 100%;
+    }
+    .card img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1, h3 {
+        font-size: 1.5rem;
+    }
+
+    .content {
+        font-size: 0.9rem;
+    }
+
+    .search input {
+        width: 80%;
+    }
+    .card {
+		width: 100%;
+	}
+    .card img{
+        width: 100%;
+        height: auto;
+    }
+}
